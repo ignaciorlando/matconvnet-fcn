@@ -4,9 +4,9 @@ run matconvnet/matlab/vl_setupnn ;
 addpath matconvnet/examples ;
 
 % experiment and data paths
-opts.expDir = 'data/fcn32s-voc11' ;
+opts.expDir = 'data/fcn8s-voc11' ;
 opts.dataDir = 'data/voc11' ;
-opts.modelPath = 'data/fcn32-voc11/net-epoch-50.mat' ;
+opts.modelPath = 'data/fcn8-voc11/net-epoch-50.mat' ;
 opts.modelFamily = 'matconvnet' ;
 [opts, varargin] = vl_argparse(opts, varargin) ;
 
