@@ -1,7 +1,7 @@
 local/
 data/
 *~
-
+/matconvnet
 /net-train.pdf
 /imagenet-vgg-f.mat
 *.mat
